@@ -5,7 +5,7 @@
 
 ## 2019
 
-🤖 Took up coding towards the end of the year with the goal to pivot my career to web development <br />
+🤖 Took up coding at the end of the year with the goal to pivot my career to web development <br />
 📈 Worked mostly on two large online pharmacy acquisitions for a key client
 
 ## 2018
@@ -18,6 +18,6 @@
 🎓 Graduated from University of Warwick (UK) <br />
 🎉 Moved to Berlin to work for a tech-focused M&A boutique
 
-## 2012
+## 2011/12
 
 🏙 Gap year in New York City working for an NGO <br />
