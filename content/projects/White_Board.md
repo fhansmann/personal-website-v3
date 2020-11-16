@@ -1,5 +1,5 @@
 ---
-date: '2020-08-03'
+date: '2020-06-28'
 title: 'React Whiteboard'
 github: 'https://github.com/fhansmann/react-whiteboard'
 tech:

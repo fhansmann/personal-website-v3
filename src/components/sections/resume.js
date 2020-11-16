@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { graphql, useStaticQuery, Link } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import styled from 'styled-components';
@@ -14,7 +14,7 @@ const StyledFlexContainer = styled.div`
   align-items: flex-start;
   ${media.tablet`display: block;`};
 `;
-const StyledWorkLink = styled(Link)`
+const StyledWorkLink = styled.a`
   ${mixins.bigButton};
   border: 1px solid colors.green;
   color: colors.green;
@@ -51,7 +51,7 @@ const Resume = () => {
           </div>
         ))}
       </StyledFlexContainer>
-      <StyledWorkLink to="/">Detailed Resume</StyledWorkLink>
+      <StyledWorkLink target="_blank" to="https://drive.google.com/file/d/12CnEFAYRoxYjp1CbDas-VVlz-IFWUtQ-/view?usp=sharing">Detailed Resume</StyledWorkLink>
     </StyledContainer>
   );
 };
