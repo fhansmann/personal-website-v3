@@ -1,5 +1,5 @@
 ---
-date: '2020-08-26'
+date: '2020-10-26'
 title: 'Otter To-Dos'
 github: 'https://github.com/fhansmann/next-hasura-todo-master'
 tech:

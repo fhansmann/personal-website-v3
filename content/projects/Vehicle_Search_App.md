@@ -1,5 +1,5 @@
 ---
-date: '2020-08-22'
+date: '2020-09-22'
 title: 'Munich Owls'
 github: 'https://github.com/fhansmann/nextjs_vehicle-search-app'
 tech:
