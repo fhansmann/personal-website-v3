@@ -1,14 +1,16 @@
 ---
 date: '2020-08-22'
-title: 'Vehicle Search App'
+title: 'Munich Owls'
 github: 'https://github.com/fhansmann/nextjs_vehicle-search-app'
 tech:
-  - Next JS
-  - TypeScript
-  - Material UI
-  - SWR
+  - Next.js
+  - Google Maps API
+  - Firebase Auth
+  - Postgress & Prisma
+  - Chakra UI
+  - React Query, React Hook Form
 
 showInProjects: true
 ---
 
-Build a vehicle search app displaying a collection of cars on sale using the wildely popular Next JS framework.
+Responsive web app for users to view and upload information about obstacles on the streets and cycling paths. The information is displayed in Google maps.

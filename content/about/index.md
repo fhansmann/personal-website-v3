@@ -8,7 +8,7 @@ skills:
   - Gatsby.js
   - Mongo DB
   - Postgress
-  - Express
+  - Hasura
   - Firebase
   - GraphQl
   - Styled Components
