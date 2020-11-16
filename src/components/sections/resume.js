@@ -14,12 +14,13 @@ const StyledFlexContainer = styled.div`
   align-items: flex-start;
   ${media.tablet`display: block;`};
 `;
-const StyledWorkLink = styled.a`
-  ${mixins.bigButton};
-  border: 1px solid colors.green;
-  color: colors.green;
-  margin-top: 15px;
-  margin-bottom: 15px;
+const StyledLink = styled.a`
+  ${mixins.inlineLink};
+  text-align: center;
+  margin: 30px auto 0;
+  &:after {
+    bottom: 0.1em;
+  }
 `;
 
 const Resume = () => {
@@ -51,7 +52,13 @@ const Resume = () => {
           </div>
         ))}
       </StyledFlexContainer>
-      <StyledWorkLink target="_blank" to="https://drive.google.com/file/d/12CnEFAYRoxYjp1CbDas-VVlz-IFWUtQ-/view?usp=sharing">Detailed Resume</StyledWorkLink>
+      <StyledLink
+        href={'https://drive.google.com/file/d/12CnEFAYRoxYjp1CbDas-VVlz-IFWUtQ-/view?usp=sharing'}
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+        aria-label={'resume'}>
+        Click here to see full CV
+      </StyledLink>
     </StyledContainer>
   );
 };
