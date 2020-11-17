@@ -26,7 +26,7 @@ const Work = () => {
   `);
 
   return (
-    <Layout>
+    <Layout location={location}>
       <Helmet>
         <title>Looking for Work</title>
         <link rel="canonical" href="https://florians.dev/work" />
